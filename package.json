@@ -5,6 +5,7 @@
   "files": [
     "tslint.js"
   ],
+  "main": "tslint.js",
   "keywords": [
     "tslint",
     "config",
