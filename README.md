@@ -30,10 +30,6 @@ In `tslint.json`:
 }
 ```
 
-## License
-
-Apache 2.0
-
 [npm-image]: https://img.shields.io/npm/v/tslint-config-temando.svg?style=flat
 [npm-url]: https://npmjs.org/package/tslint-config-temando
 [downloads-image]: https://img.shields.io/npm/dm/tslint-config-temando.svg?style=flat
