@@ -1,0 +1,27 @@
+{
+  "name": "tslint-config-temando",
+  "version": "1.0.0",
+  "description": "A TSLint config from Temando",
+  "files": [
+    "tslint.js"
+  ],
+  "keywords": [
+    "tslint",
+    "config",
+    "standard",
+    "standardjs",
+    "typescript",
+    "ts"
+  ],
+  "scripts": {
+    "test": "tslint -c tslint.js test/**/*.ts"
+  },
+  "dependencies": {
+    "tslint-config-standard": "5",
+    "tslint-eslint-rules": "4"
+  },
+  "devDependencies": {
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.2"
+  }
+}
