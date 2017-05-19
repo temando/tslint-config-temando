@@ -7,6 +7,7 @@ module.exports = {
   "rules": {
     "ter-indent": [true, 2],
     "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
+    "semicolon": [true, "ignore-interfaces"]
 
     "no-angle-bracket-type-assertion": false,
     "no-object-literal-type-assertion": [false],
