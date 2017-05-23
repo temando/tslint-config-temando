@@ -11,7 +11,7 @@
 
 - [TSLint](https://www.npmjs.com/package/tslint)
 - [TSLint ESLint Rules](https://www.npmjs.com/package/tslint-eslint-rules)
-- [TSLint Config Standard](https://www.npmjs.com/package/tslint-config-temando)
+- [TSLint Config Standard](https://www.npmjs.com/package/tslint-config-standard)
 - And a few overrides 
 
 ## Installation
