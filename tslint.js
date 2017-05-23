@@ -8,7 +8,7 @@ module.exports = {
     "ter-indent": [true, 2],
     "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
     "semicolon": [true, "always"],
-    "object-curly-spacing": [ true, "always" ]
+    "object-curly-spacing": [ true, "always" ],
     "no-angle-bracket-type-assertion": false,
     "no-object-literal-type-assertion": [false],
 
