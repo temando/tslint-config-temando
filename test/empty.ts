@@ -2,7 +2,10 @@
 
 let test;
 
+function foo () { return true; }
 if (test) {
-
-  test = 1;
+  foo();
+  test = [[1]];
+  test = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 }

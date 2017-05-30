@@ -7,13 +7,14 @@ module.exports = {
   "rules": {
     // Asthetic
     "ter-indent": [true, 2],
+    "ter-func-call-spacing": [true],
+    "max-line-length": [false],
+    "ter-max-len": [true, 130, { ignoreComments: true }],
     "curly": true,
     "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
     "semicolon": [true, "always"],
     "object-curly-spacing": [ true, "always" ],
-
-    // Rules
-    "no-extra-boolean-cast": true,
+    "array-bracket-spacing": [true, "never"],
     
     // Overrides
     "no-angle-bracket-type-assertion": false,

@@ -9,6 +9,19 @@
       true,
       2
     ],
+    "ter-func-call-spacing": [
+      true
+    ],
+    "max-line-length": [
+      false
+    ],
+    "ter-max-len": [
+      true,
+      130,
+      {
+        "ignoreComments": true
+      }
+    ],
     "curly": true,
     "trailing-comma": [
       true,
@@ -25,7 +38,10 @@
       true,
       "always"
     ],
-    "no-extra-boolean-cast": true,
+    "array-bracket-spacing": [
+      true,
+      "never"
+    ],
     "no-angle-bracket-type-assertion": false,
     "no-object-literal-type-assertion": [
       false
