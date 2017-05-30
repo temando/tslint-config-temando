@@ -17,7 +17,6 @@
   "scripts": {
     "test": "tslint -c tslint.js test/**/*.ts",
     "build": "./scripts/build.js",
-    "postinstall": "yarn build",
     "preversion": "yarn test"
   },
   "dependencies": {
