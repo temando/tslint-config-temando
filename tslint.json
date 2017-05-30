@@ -42,6 +42,10 @@
       true,
       "never"
     ],
+    "space-in-parens": [
+      true,
+      "never"
+    ],
     "no-angle-bracket-type-assertion": false,
     "no-object-literal-type-assertion": [
       false

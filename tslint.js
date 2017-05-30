@@ -15,6 +15,7 @@ module.exports = {
     "semicolon": [true, "always"],
     "object-curly-spacing": [ true, "always" ],
     "array-bracket-spacing": [true, "never"],
+    "space-in-parens": [true, "never"],
     
     // Overrides
     "no-angle-bracket-type-assertion": false,
