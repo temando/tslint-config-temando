@@ -25,7 +25,7 @@ module.exports = {
     /** Aesthetic & consistancy */
     "ter-func-call-spacing": [true],
     "curly": true,
-    "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
+    "trailing-comma": [true, { multiline: "always", singleline: "never" }],
     "object-literal-key-quotes": [ true, "consistent-as-needed" ]
     "object-curly-spacing": [ true, "always" ],
     "array-bracket-spacing": [true, "never"],
