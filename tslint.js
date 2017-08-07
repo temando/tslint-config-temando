@@ -22,6 +22,8 @@ module.exports = {
     /** Disabled, because pointless */
     "object-literal-sort-keys": false,
 
+    "no-default-export": true,
+
     /** Aesthetic & consistancy */
     "ter-func-call-spacing": [true],
     "curly": true,

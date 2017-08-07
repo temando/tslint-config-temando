@@ -1,3 +1,8 @@
+## 1.2.0 - 07 Aug 2017
+
+- [x] Added `"no-default-export": true` because default exports are bad
+  - If necessary, disable the rule on a per-case basis, or on a project basis if diciplined enough
+
 ## 1.1.1 - 23 May, 2017
 - [x] `object-curly-spacing`
 
