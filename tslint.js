@@ -1,5 +1,5 @@
 module.exports = {
-	"extends":[
+  "extends":[
     "tslint:latest",
     "tslint-eslint-rules",
     "tslint-config-standard"
@@ -28,7 +28,7 @@ module.exports = {
     "ter-func-call-spacing": [true],
     "curly": true,
     "trailing-comma": [true, { multiline: "always", singleline: "never" }],
-    "object-literal-key-quotes": [ true, "consistent-as-needed" ]
+    "object-literal-key-quotes": [ true, "consistent-as-needed" ],
     "object-curly-spacing": [ true, "always" ],
     "array-bracket-spacing": [true, "never"],
     "space-in-parens": [true, "never"],
