@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-temando",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A TSLint config from Temando",
   "files": [
     "tslint.js"
