@@ -9,8 +9,9 @@
       true,
       2
     ],
-    "ter-func-call-spacing": [
-      true
+    "semicolon": [
+      true,
+      "always"
     ],
     "max-line-length": [
       false
@@ -22,6 +23,15 @@
         "ignoreComments": true
       }
     ],
+    "no-angle-bracket-type-assertion": false,
+    "no-object-literal-type-assertion": [
+      false
+    ],
+    "object-literal-sort-keys": false,
+    "no-default-export": true,
+    "ter-func-call-spacing": [
+      true
+    ],
     "curly": true,
     "trailing-comma": [
       true,
@@ -30,9 +40,9 @@
         "singleline": "never"
       }
     ],
-    "semicolon": [
+    "object-literal-key-quotes": [
       true,
-      "always"
+      "consistent-as-needed"
     ],
     "object-curly-spacing": [
       true,
@@ -45,15 +55,6 @@
     "space-in-parens": [
       true,
       "never"
-    ],
-    "no-angle-bracket-type-assertion": false,
-    "no-object-literal-type-assertion": [
-      false
-    ],
-    "object-literal-sort-keys": false,
-    "object-literal-key-quotes": [
-      true,
-      "consistent-as-needed"
     ]
   }
 }
