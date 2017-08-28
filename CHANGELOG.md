@@ -1,16 +1,24 @@
-## 1.2.0 - 07 Aug 2017
 
-- [x] Added `"no-default-export": true` because default exports are bad
+## [1.3.0] - 2017-08-28
+
+
+## [1.2.0] - 2017-08-07 
+
+### Added
+- Added `"no-default-export": true` because default exports are bad
   - If necessary, disable the rule on a per-case basis, or on a project basis if diciplined enough
 
-## 1.1.1 - 23 May, 2017
-- [x] `object-curly-spacing`
+## [1.1.1] - 2017-05-23
 
-## 1.1.0 - 23 May, 2017
+### Added
+- `object-curly-spacing`
 
-- [x] Made semiclons mandatory :(, overriding `tslint-config-standard`
+## [1.1.0] - 2017-05-23
+
+### Changed
+- Made semiclons mandatory :(, overriding `tslint-config-standard`
   - This is because in typescript, types actually fail to syntax highlight corrrectly without delimiter characters
 
-## 1.0.x
+## [1.0.0]
 
 Initial release
