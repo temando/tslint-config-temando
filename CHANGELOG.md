@@ -1,6 +1,9 @@
 
 ## [1.3.0] - 2017-08-28
 
+### Added
+- `no-submodule-imports` disabled
+  - Disabled because sub-module imports are useful when you don't want to import the whole universe
 
 ## [1.2.0] - 2017-08-07 
 
