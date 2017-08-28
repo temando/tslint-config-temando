@@ -32,5 +32,9 @@ module.exports = {
     "object-curly-spacing": [ true, "always" ],
     "array-bracket-spacing": [true, "never"],
     "space-in-parens": [true, "never"],
+
+    /** Disabled because sub-module imports are useful when you don't want to import the whole universe */
+    "no-submodule-imports": false,
+    
   }
 }

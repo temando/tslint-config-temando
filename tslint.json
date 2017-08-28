@@ -55,6 +55,7 @@
     "space-in-parens": [
       true,
       "never"
-    ]
+    ],
+    "no-submodule-imports": false
   }
 }
