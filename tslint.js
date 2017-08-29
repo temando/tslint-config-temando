@@ -36,6 +36,8 @@ module.exports = {
     /** Disabled because sub-module imports are useful when you don't want to import the whole universe */
     "no-submodule-imports": false,
 
-    "return-undefined": false
+    "return-undefined": false,
+
+    "await-promise": [true, "Thenable", "Bluebird"]    
   }
 }
