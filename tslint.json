@@ -56,6 +56,12 @@
       true,
       "never"
     ],
-    "no-submodule-imports": false
+    "no-submodule-imports": false,
+    "return-undefined": false,
+    "await-promise": [
+      true,
+      "Thenable",
+      "Bluebird"
+    ]
   }
 }
