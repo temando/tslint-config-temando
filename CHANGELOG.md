@@ -1,6 +1,8 @@
 
 ## [Unreleased]
 
+## [1.4.0] - 2017-08-29
+
 ### Added
 - `return-undefined: false`
 
