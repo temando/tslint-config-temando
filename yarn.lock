@@ -162,13 +162,13 @@ tslib@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.7.1.tgz#bc8004164691923a79fe8378bbeb3da2017538ec"
 
-tslint-config-standard@6.0.1:
+tslint-config-standard@~6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/tslint-config-standard/-/tslint-config-standard-6.0.1.tgz#a04ba0a794759e877287056f549b081e47a56d6c"
   dependencies:
     tslint-eslint-rules "^4.0.0"
 
-tslint-eslint-rules@^4.0.0, tslint-eslint-rules@~4.0.0:
+tslint-eslint-rules@4.0.0, tslint-eslint-rules@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/tslint-eslint-rules/-/tslint-eslint-rules-4.0.0.tgz#4e0e59ecd5701c9a48c66ed47bdcafb1c635d27b"
   dependencies:
