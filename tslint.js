@@ -6,6 +6,7 @@ module.exports = {
   ],
   "rules": {
     /** Lock down indentation */
+    "indent": [true, "spaces", 2],
     "ter-indent": [true, 2],
 
     /** Typescripts vscode tmlanguage actually needs semicolons ;( */

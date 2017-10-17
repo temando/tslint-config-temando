@@ -5,6 +5,11 @@
     "tslint-config-standard"
   ],
   "rules": {
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
     "ter-indent": [
       true,
       2

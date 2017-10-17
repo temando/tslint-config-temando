@@ -11,3 +11,8 @@ if (test) {
   test = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 }
+
+export type IType = null | string | {
+  href: string;
+  meta?: {}
+};
