@@ -2,7 +2,7 @@ language: node_js
 node_js: ["4"]
   
 install:
-  - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
+  - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > ~/.npmrc
   - npm install
 
 script:
@@ -11,5 +11,6 @@ script:
 deploy:
   provider: script
   script: npm publish
+  skip_cleanup: true
   on:
     tags: true
