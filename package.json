@@ -24,7 +24,7 @@
     "preversion": "yarn test"
   },
   "peerDependencies": {
-    "typescript": "2.4",
+    "typescript": "2",
     "tslint": "5"
   },
   "dependencies": {
