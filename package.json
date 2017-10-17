@@ -33,6 +33,6 @@
   },
   "devDependencies": {
     "tslint": "5",
-    "typescript": "2.5"
+    "typescript": "2.4"
   }
 }
