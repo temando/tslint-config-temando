@@ -28,11 +28,11 @@
     "tslint": "5"
   },
   "dependencies": {
-    "tslint-config-standard": "~6.0.1",
-    "tslint-eslint-rules": "~4.1.0"
+    "tslint-config-standard": "~7.1.0",
+    "tslint-eslint-rules": "~5.3.1"
   },
   "devDependencies": {
-    "tslint": "5",
-    "typescript": "2.4"
+    "tslint": "~5.10.0",
+    "typescript": "~2.9.2"
   }
 }
