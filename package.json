@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-temando",
-  "version": "1.5.11",
+  "version": "1.6.0-pre",
   "description": "A TSLint config from Temando",
   "files": [
     "tslint.js"
@@ -24,8 +24,8 @@
     "preversion": "npm test"
   },
   "peerDependencies": {
-    "typescript": "2",
-    "tslint": "5"
+    "tslint": "5",
+    "typescript": "2"
   },
   "dependencies": {
     "tslint-config-standard": "~7.1.0",
