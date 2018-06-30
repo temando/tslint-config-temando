@@ -19,7 +19,7 @@
     "url": "https://github.com/temando/tslint-config-temando"
   },
   "scripts": {
-    "test": "tslint -c tslint.js test/**/*.ts",
+    "test": "tslint -c tslint.js --project tsconfig.json test/**/*.ts",
     "build": "./scripts/build.js",
     "preversion": "npm test"
   },

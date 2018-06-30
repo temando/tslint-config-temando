@@ -5,7 +5,7 @@ let test;
 function foo () { return true; }
 const bar = (a) => 1;
 
-if (test) {
+if (test === bar(1)) {
   foo();
   test = [[1]];
   test = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
