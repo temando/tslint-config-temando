@@ -24,15 +24,15 @@
     "preversion": "npm test"
   },
   "peerDependencies": {
-    "typescript": "2",
-    "tslint": "5"
+    "tslint": "^5.11",
+    "typescript": "3"
   },
   "dependencies": {
-    "tslint-config-standard": "~7.1.0",
-    "tslint-eslint-rules": "~5.3.1"
+    "tslint-config-standard": "~8.0.1",
+    "tslint-eslint-rules": "~5.4.0"
   },
   "devDependencies": {
-    "tslint": "~5.10.0",
-    "typescript": "~2.9.2"
+    "tslint": "~5.11.0",
+    "typescript": "~3.1.3"
   }
 }
