@@ -7,10 +7,3 @@ install:
 
 script:
   - npm run test
-
-deploy:
-  provider: script
-  script: echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > ~/.npmrc && npm publish
-  skip_cleanup: true
-  on:
-    tags: true
