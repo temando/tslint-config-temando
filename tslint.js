@@ -40,6 +40,9 @@ module.exports = {
 
     "return-undefined": false,
 
+    /** Disabled because when defining types it errors when they are out of order, which ruins readability and cannot affect runtime */
+    "no-use-before-declare": false,
+
     "await-promise": [true, "Thenable", "Bluebird"]    
   }
 }

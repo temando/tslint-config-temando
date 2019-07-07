@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+- `no-use-before-declare` disabled
+  - Disabled because when defining types it errors when they are out of order, which ruins readability and cannot affect runtime
+
 ## [1.5.0] - 2017-08-29
 
 ### Added

@@ -66,6 +66,7 @@
     ],
     "no-submodule-imports": false,
     "return-undefined": false,
+    "no-use-before-declare": false,
     "await-promise": [
       true,
       "Thenable",
